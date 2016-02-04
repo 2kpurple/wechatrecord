@@ -16,5 +16,5 @@ def start():
 if __name__ == '__main__':
     start()
 
-parser = argparse.ArgumentParser()
-parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.parse_args()
