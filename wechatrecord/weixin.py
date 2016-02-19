@@ -1,23 +1,12 @@
-# coding=utf-8
-# @Author: 2kpurple
-# @Date: 2016-02-04 13:32
-
-"""
-微信聊天记录
-"""
-
-from peewee import *
-from playhouse.sqlite_ext import SqliteExtDatabase
+# coding = utf-8
+# @Author: 
+# @Date: 2016-2-18 17:52
 
 
-class WeixinRecord:
+class WeiXin:
 
-    def __init__(self, path, platform):
-        """
-        :param path: 微信聊天记录的文件夹路径
-        :param platform: 平台 android or ios
-        """
+    def __init__(self, username, nickname, friends):
+        self.username = username
+        self.nickname = nickname
+        self.friends = friends
 
-        self.platform = platform
-        self.path = path
-        # self.db = sqlite

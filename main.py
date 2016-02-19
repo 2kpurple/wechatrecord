@@ -5,7 +5,7 @@
 import wechatrecord
 import argparse
 
-tool_desc = 'WeChat Chat History Export Tool can export the chat history in wechat to HTML or Excel document.'
+tool_desc = 'WeChat Chat History Export Tool can export the chat history in wechat to HTML file.'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=tool_desc)
@@ -18,4 +18,3 @@ if __name__ == '__main__':
     # parser.add_argument("echo", help="echo the string you use here")
     args = parser.parse_args()
     listfriend = args.list_friend
-D
